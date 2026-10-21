@@ -2,7 +2,7 @@
 
 This project enables the digital 3D surface reconstruction of an object (such as limestone samples) from a series of 2D photographs.
 
-## 💡 Principle of the Code (Photometric Stereo)
+## Principle of the Code
 
 The program is based on the principle of **photometric stereo**. The idea is to take multiple photos of the same object with a fixed camera (top-down view), while changing the incidence angle of the light for each shot.
 
@@ -32,7 +32,7 @@ To run this program on an Ubuntu machine, you need to install Python 3 and the r
 
    *(Make sure your `requirements.txt` file contains: `numpy`, `matplotlib`, `Pillow`, `scipy`, `pandas`, `plotly` and `opencv-python`)*.
 
-## 📁 Folder Preparation and Photo Naming
+## Folder Preparation and Photo Naming
 
 The naming of the photos is **strict**. For the mathematical calculation of the lighting matrix ($S$) to work, the algorithm reads the light source's azimuth angle directly from the file name.
 
@@ -55,7 +55,7 @@ sample_A/
 └── 288.jpg    (light at 288°)
 ```
 
-## 🚀 Usage (Command Line)
+## Usage (Command Line)
 
 ### Step 1: Cropping and Normalization
 
@@ -88,7 +88,7 @@ if __name__ == "__main__":
         print("Please provide the folder to process. Example: python3 reconstruction_v3.py data/")
 ```
 
-## 📊 Outputs (What the code returns)
+## Outputs (What the code returns)
 
 Once the processing is complete, the program generates the following items in the analyzed folder:
 
