@@ -12,7 +12,7 @@ The program is based on the principle of **photometric stereo**. The idea is to 
 
 3. **3D Rendering:** The resulting altitude matrix is converted into an interactive 3D model that can be viewed directly in a web browser.
 
-## 🛠 Prerequisites and Setup (Ubuntu / Linux)
+## Prerequisites and Setup (Ubuntu / Linux)
 
 To run this program on an Ubuntu machine, you need to install Python 3 and the required scientific libraries.
 
